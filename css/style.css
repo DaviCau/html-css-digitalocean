@@ -1,0 +1,155 @@
+/* navbar */
+.ms_navbar {
+    background-color: white;
+    margin: 0;
+}
+
+#logo_nav {
+    display: inline-block;
+    height: 70px;
+    padding: 20px 0;
+}
+#logo_nav_img {
+    height: 100%;
+}
+
+.ms_nav_btn {
+    float: right;
+    height: 70px;
+    margin: 0px;
+    padding: 20px 10px;
+    background-color: transparent;
+    border: solid 1px transparent;
+}
+.ms_nav_btn span {
+    display: block;
+    margin: 2px;
+    width: 20px;
+    border: solid 1px blue;
+}
+
+.ms_list_inline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ms_list_inline li {
+    display: inline-block;
+    line-height: 70px;
+}
+.ms_list_inline a {
+    color: #031c4e;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.ms_navlist_right {
+    text-align: right;
+}
+.ms_navlist_right li {
+    margin-left: 10px;
+}
+.ms_navlist_left li {
+    margin-right: 10px;
+}
+
+.ms_btn {
+    background-color: transparent;
+    border: solid 1px #2285fd;
+    color: #2285fd;
+    font-weight: bold;
+}
+
+/* jumbotron */
+#jumbotron {
+    background-image: url("../img/bg-banner-home.jpg");
+    background-size: cover;
+    margin-top: 80px;
+    padding: 50px 0;
+}
+
+.ms_jumbotron_text {
+    color: white;
+}
+.ms_jumbotron_text h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.ms_jumbotron_text p {
+    font-size: 22px;
+}
+
+.ms_google_form {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+.ms_google_form h3 {
+    color: #031c4e;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ms_google_form h3:nth-child(2) {
+    color: #006aff;
+}
+.ms_google_form input {
+    font-size: 16px;
+}
+.ms_google_form input::placeholder {
+    color: #757575;
+    opacity: 1;
+}
+.ms_google_form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ms_btn_blue {
+    background-color: #579aff;
+    color: white;
+    font-weight: bold;
+}
+.ms_btn_white {
+    position: relative;
+    background-color: white;
+    color: #757575;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #757575;
+}
+.ms_btn_white i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+.ms_google_form p {
+    font-weight: bold;
+    font-size: 12px;
+    color: #031c4e;
+}
+.ms_google_form p a {
+    color: #046fff;
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    
+    .ms_display_none {
+        display: none;
+    }
+
+    .ms_jumbotron_text h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ms_jumbotron_text h1 {
+        font-size: 40px;
+    }
+}
