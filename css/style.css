@@ -244,7 +244,7 @@
 }
 
 .ms_slide_box figcaption {
-    margin: 20px 0 15px;
+    padding: 20px 0 15px;
     color: #031c4e;
     font-size: 16px;
 }
@@ -268,6 +268,11 @@
 
     .ms_jumbotron_text h1 {
         font-size: 50px;
+    }
+
+    .ms_slide_box {
+        margin: 120px auto 60px;
+        width: 50%;
     }
 }
 
