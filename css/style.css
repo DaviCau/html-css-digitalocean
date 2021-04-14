@@ -65,7 +65,7 @@
 #jumbotron {
     background-image: url("../img/bg-banner-home.jpg");
     background-size: cover;
-    margin-top: 80px;
+    margin-top: 70px;
     padding: 50px 0;
 }
 
@@ -117,12 +117,12 @@
     font-weight: bold;
     box-shadow: 1px 1px 1px #757575;
 }
-.ms_btn_white i {
+.ms_btn_white img {
     position: absolute;
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 18px;
+    height: 20px;
 }
 
 .ms_google_form p {
@@ -133,6 +133,75 @@
 .ms_google_form p a {
     color: #046fff;
     text-decoration: underline;
+}
+
+/* sponsors */
+#sponsors {
+    padding: 40px 0 30px;
+    background-color: #f3f5f9;
+}
+
+#sponsors h4 {
+    color: #6f7b97;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#sponsors .row {
+    line-height: 110px;
+}
+#sponsors img {
+    width: 100%;
+    height: 100px;
+}
+
+#sponsors a {
+    color: #006aff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* main */
+.ms_section_title {
+    color: #031c4e;
+    font-size: 34px;
+    font-weight: bold;
+}
+.ms_section_text {
+    color: #6f7b97;
+    font-size: 22px;
+    /* font-weight: 500; */
+}
+/* sezione configuration */
+#configuration {
+    padding: 70px 0;
+}
+
+.ms_wrapper80 {
+    width: 80%;
+    margin: 50px auto 0;
+}
+
+.ms_list ul {
+    padding-left: 10px;
+    list-style: none;
+}
+.ms_list li {
+    line-height: 50px;
+}
+.ms_list {
+    border-left: solid 1px #ccc;
+}
+
+.ms_configuration_box h5 {
+    margin-top: 20px;
+    color: #031c4e;
+    font-weight: bold;
+    font-size: 18px;
+}
+.ms_configuration_box p {
+    color: #6f7b97;
+    font-size: 16px;
 }
 
 
@@ -151,5 +220,12 @@
 @media screen and (max-width: 991px) {
     .ms_jumbotron_text h1 {
         font-size: 40px;
+    }
+
+    .ms_wrapper80 {
+        width: 100%;
+    }
+    .ms_list {
+        margin-bottom: 30px;
     }
 }
