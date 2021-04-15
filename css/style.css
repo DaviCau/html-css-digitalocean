@@ -373,6 +373,19 @@ footer {
     color: #7a859d;
 }
 
+.ms_footer_links {
+    padding: 0;
+    list-style: none;
+}
+.ms_footer_links li {
+    line-height: 30px;
+}
+.ms_footer_links li:first-child {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 1199px) {
     
     .ms_display_none {
