@@ -271,6 +271,36 @@
     margin-top: 30px;
 }
 
+/* sezione service */
+#service {
+    padding: 70px 0;
+    background-image: linear-gradient(#064cc6, #001d99);
+}
+
+#service .ms_section_title {
+    color: white;
+}
+
+.ms_table {
+    padding: 15px;
+    font-size: 14px;
+}
+.ms_table_col1 {
+    color: white;
+    font-weight: bold;
+}
+.ms_table_col2 {
+    color: white;
+}
+.ms_table a {
+    color: #00d5d1;
+}
+
+.ms_table .row {
+    line-height: 40px;
+    border-bottom: solid 1px white;
+}
+
 @media screen and (max-width: 1199px) {
     
     .ms_display_none {
